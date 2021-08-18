@@ -19,7 +19,8 @@ defmodule LiveViewTodsWeb.Router do
 
     live "/", TodoLive, :index
     get "/about-us", PageController, :about
-     end
+    get "/contact-us", PageController, :contact
+  end
 
   # Other scopes may use custom stacks.
   # scope "/api", LiveViewTodsWeb do

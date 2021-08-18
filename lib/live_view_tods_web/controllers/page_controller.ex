@@ -4,4 +4,7 @@ defmodule LiveViewTodsWeb.PageController do
   def about(conn, _params) do
     render(conn, :about)
   end
- end
+  def contact(conn, _params) do
+    render(conn, :contact)
+  end
+end
