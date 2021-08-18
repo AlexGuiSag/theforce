@@ -17,8 +17,7 @@ defmodule LiveViewTodsWeb.Router do
   scope "/", LiveViewTodsWeb do
     pipe_through :browser
 
-    live "/", TodoLive, :index
-    get "/about-us", PageController, :about
+        get "/about-us", PageController, :about
     get "/contact-us", PageController, :contact
   end
 
